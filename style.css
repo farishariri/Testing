@@ -1,0 +1,30 @@
+body{
+    margin:30px ;
+    border-style: groove
+ }
+ 
+ h2{
+     background-color: cornflowerblue;
+     color: thistle;
+     font-family: 'Times New Roman', Times, serif
+ }
+
+ header{
+     text-align: center;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: large;
+ }
+ p{
+     text-align: center;
+     font-family: sans-serif;
+ }
+ 
+ a{
+    background-color: #d3655d;
+    color: white;
+    padding: 14px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+ }
