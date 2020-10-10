@@ -1,6 +1,6 @@
 body{
     margin:30px ;
-    border-style: groove
+    
  }
  
  h2{
@@ -17,6 +17,7 @@ body{
  p{
      text-align: center;
      font-family: sans-serif;
+     border-style: groove
  }
  
  a{
