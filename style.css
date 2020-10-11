@@ -5,7 +5,7 @@ body{
  
  h2{
      background-color: cornflowerblue;
-     color: thistle;
+     color: white;
      font-family: 'Times New Roman', Times, serif
  }
 
@@ -14,18 +14,21 @@ body{
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      font-size: large;
  }
- p{
-     text-align: center;
-     font-family: sans-serif;
-     border-style: groove
- }
  
+ 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(54, 98, 155);
+  color: rgb(67, 56, 134);
+  text-align: center;
+}
+
  a{
-    background-color: #d3655d;
-    color: white;
-    padding: 14px 20px;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 50%;
+     color:white;
+     text-decoration: none;
  }
+
+ 
