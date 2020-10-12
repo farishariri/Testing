@@ -4,14 +4,15 @@ body{
  }
  
  h2{
-     background-color: cornflowerblue;
-     color: white;
-     font-family: 'Times New Roman', Times, serif
+     background-color: rgb(245, 245, 245);
+     opacity: 100%;
+     color: black;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
  }
 
  header{
      text-align: center;
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      font-size: large;
  }
  
@@ -21,14 +22,12 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(54, 98, 155);
-  color: rgb(67, 56, 134);
+  background-color: rgb(55, 80, 112);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
- a{
-     color:white;
-     text-decoration: none;
- }
+
+
 
  
