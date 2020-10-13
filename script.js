@@ -6,8 +6,14 @@ const errorelement = document.getElementById('error')
 form.addEventListener('submit' , (e) )
 let messages = []
 e.preventdefult()
-if(name.value == '' || name.value == null) {
-    messages.push('Name is required')
+if(email.value == '' || email.value == null) {
+    messages.push('email is required')
+}
+if (password.value.length <= 6 ) {
+    messages.push('password must be longer than 6 characters')
+}
+if(password.value.length > 20){
+    messages.push('password must be less than 20 characters')
 }
 if(messages.length > 0) {
     e.preventdefult()
