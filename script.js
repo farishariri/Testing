@@ -1,6 +1,6 @@
 const name = document.getElementById('email')
 const name = document.getElementById('password')
-const form = document.getElementById('form')
+const form = document.getElementById('registration')
 const errorelement = document.getElementById('error')
 
 form.addEventListener('submit' , (e) )
