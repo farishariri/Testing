@@ -1,21 +1,24 @@
-const name = document.getElementById('email')
-const name = document.getElementById('password')
-const form = document.getElementById('registration')
-const errorelement = document.getElementById('error')
+const email = document.getElementById('email')
+const password = document.getElementById('password')
+const document = document.getElementById('form')
+const errorElement = document.getElementById('error')
 
-form.addEventListener('submit' , (e) )
-let messages = []
-e.preventdefult()
-if(email.value == '' || email.value == null) {
-    messages.push('email is required')
-}
-if (password.value.length <= 6 ) {
-    messages.push('password must be longer than 6 characters')
-}
-if(password.value.length > 20){
-    messages.push('password must be less than 20 characters')
-}
-if(messages.length > 0) {
-    e.preventdefult()
-    errorelement.innerText = messages.join(' , ')
-}
+document.addEventListener('submit' , (e) => {
+    let messages = []
+    if (email.value === '' || email.value == null) {
+        messages.push('email is required')
+    }
+    if (password.value.length <= 6){
+        messages.push('password must be longer than 6 characters')
+    }
+    if (password.value.length >= 20){
+        messages.push('password must be less than 20 characters')
+    }
+    if (password.value === 'password'){
+        messages.push('password cannot be password')
+    }
+    if (messages.length > 0){
+        e.prevenrDefault()
+        errorElement.innerText = messages.join(', ')
+
+    }
