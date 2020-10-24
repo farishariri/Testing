@@ -20,5 +20,8 @@ document.addEventListener('submit' , (e) => {
     if (messages.length > 0){
         e.prevenrDefault()
         errorElement.innerText = messages.join(', ')
-
+        $(document).ready( function () {
+            $('#table_id').DataTable();
+        } );
+        
     }
